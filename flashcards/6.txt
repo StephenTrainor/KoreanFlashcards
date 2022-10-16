@@ -1,0 +1,71 @@
+가깝다;to be near
+가격;price
+가수;singer
+간호사;nurse
+강아지;puppy
+깨끗하다;to be clean
+국;soup
+귀엽다;to be cute
+기자;journalist
+길;road
+김치;kimchi
+날씨;weather
+넓다;to be spacious
+달다;to be sweet
+더럽다;to be dirty
+덥다;to be hot
+도서관;library
+뜨겁다;to be hot (water)
+레몬;lemon
+많다;to be many
+맛없다;to be tasteless
+맛있다;to be delicious
+맵다;to be spicy
+머리;head
+멀다;to be far
+목수;carpenter
+물;water
+미지근하다;to be lukewarm
+방;room
+비싸다;to be expensive
+싸다;to be cheap
+설탕;sugar
+성격;personality
+소금;salt
+쉽다;to be easy
+스케줄;schedule
+쓰다;to be bitter (taste)
+시다;to be sour
+시험;test
+싱겁다;to be bland
+아름답다;to be beautiful
+앵커우먼;anchorwoman
+약;medicine
+약사;pharmacist
+어렵다;to be difficult
+어지럽다;to be dizzy
+엔지니어;engineer
+영화;movie
+영화 배우;movie star
+위험하다;to be dangerous
+음식;food
+의사;medical doctor
+자동차;car
+짜다;to be salty
+짧다;to be short
+재미있다;to be interesting
+조용하다;to be quiet
+좋다;to be good
+집;house
+차;tea
+차갑다;to be cold (water)
+초콜릿;chocolate
+캠퍼스;campus
+커피;coffee
+컴퓨터;computer
+크다;to be big
+펜;pen
+학교;school
+한국 사람;korean person
+회사원;office worker
+흐리다;to be cloudy
