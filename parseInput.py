@@ -12,13 +12,14 @@ def retrieve_flashcard_contents():
         print(constants.UNKNOWN_FILENAME_ERROR)
         filename = get_input(constants.FLASHCARD_FILENAME_PROMPT)
 
-    with open(f"{constants.DEFAULT_FLASHCARD_DIRECTORY}{filename}.txt", "r", encoding=constants.DEFAULT_FILE_ENCODING) as f:
-        flashcard_set_contents = f.read().strip()
+    with open(f"{constants.DEFAULT_FLASHCARD_DIRECTORY}{filename}.txt", "rb") as f:
+        flashcard_set_contents = f.read().decode(constants.DEFAULT_FILE_ENCODING)
 
-    flashcard_pairs = flashcard_set_contents.split('\n')
-    vocabulary_words = [x.split(';') for x in flashcard_pairs]
+    flashcard_pairs = [line.rstrip() for line in flashcard_set_contents.split('\n')]
 
-    return vocabulary_words
+    split_pairs = [pair.split(';') for pair in flashcard_pairs]
+
+    return split_pairs
 
 
 def parse_raw_hangeul_string(raw_hangeul):
@@ -60,8 +61,8 @@ def filter_double_space(string):
     out = []
 
     for i in range(len(string) - 1):
-        if string[i] is " ":
-            if string[i + 1] is not " ":
+        if string[i] == " ":
+            if string[i + 1] != " ":
                 out.append(string[i])
         else:
             out.append(string[i])
