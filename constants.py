@@ -15,11 +15,12 @@ DEFAULT_FLASHCARD_DIRECTORY = "flashcards/"
 DEFAULT_WORKSHEET_DIRECTORY = "worksheets/"
 DEFAULT_KOREAN_MODE_OPTIONS = ['k', 'kor', 'korean']
 
-START_MODE_QUIT_OPTIONS = DEFAULT_QUIT_OPTIONS + ['3']
+START_MODE_QUIT_OPTIONS = DEFAULT_QUIT_OPTIONS + ['4']
 START_MODE_PROMPT = "Enter mode:\n" \
                     "1: Add flashcards\n" \
                     "2: Study flashcards\n" \
-                    "3: Quit the program\n" \
+                    "3: Convert flashcards to worksheet\n" \
+                    "4: Quit the program\n" \
                     "\n" \
                     "Mode: "
 

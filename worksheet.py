@@ -1,6 +1,6 @@
 import constants
 from fpdf import FPDF
-from parseInput import retrieve_flashcard_contents, get_input
+from parseInput import get_input
 
 
 def create_worksheet(korean_words):
@@ -28,9 +28,3 @@ def create_worksheet(korean_words):
             pdf.line(j, 0, j, line_y_pos)
 
     pdf.output(f"{constants.DEFAULT_WORKSHEET_DIRECTORY}{output_filename}.pdf", 'F')
-
-
-if __name__ == '__main__':
-    korean_vocabulary_words = retrieve_flashcard_contents()
-
-    create_worksheet([pair[0] for pair in korean_vocabulary_words])
