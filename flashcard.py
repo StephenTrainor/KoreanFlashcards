@@ -42,8 +42,6 @@ class flashcard:
         for pair in self.pairs:
             print(f"{pair[0]} - {pair[1]}")
 
-        print()
-
     def random(self, mode=constants.DEFAULT_LANGUAGE):
         pair = self.pairs[random.randint(0, len(self.pairs) - 1)]
 
