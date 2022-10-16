@@ -34,7 +34,7 @@ STUDY_FLASHCARD_SET_PROMPT = "\nEnter mode:\n" \
                              "Mode: "
 
 FLASHCARD_TEST_LANGUAGE_MODE_PROMPT = "\nWould you like to answer in (e)nglish or (k)orean: "
-FLASHCARD_TEST_DIRECTIONS = "A word/definition will be displayed, provide the equivalent in the opposite language. To stop, enter q or nothing."
+FLASHCARD_TEST_DIRECTIONS = "A word/definition will be displayed, provide the equivalent in the opposite language. To stop, enter q or nothing.\n"
 
 FLASHCARD_FILENAME_PROMPT = "\nEnter the name of the flashcard set or file: "
 
