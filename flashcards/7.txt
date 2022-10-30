@@ -1,0 +1,31 @@
+계절;season
+꽃;flower
+과목;subject/course
+날씨;weather
+뉴질랜드;New Zealand
+러시아;Russia
+멕시코;Mexico
+봄;spring
+브라질;Brazil
+미국;America
+색;color
+소설;novel
+역사;history
+영국;England
+영화;movie
+운동;sport
+음식;food
+이탈리아;Italy
+일본;Japan
+자동차;car
+장미;rose
+중국;China
+책;book
+캐나다;Canada
+컴퓨터;computer
+코미디;comedy
+파랑;blue
+프랑스;France
+필리핀;Philippines
+한국;South Korea
+호주;Australia

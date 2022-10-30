@@ -4,9 +4,15 @@ import constants
 from parseInput import get_input
 
 
+def filterShortLists(lst):
+    if len(lst) < 2:
+        return False
+    return True
+
+
 class flashcard:
     def __init__(self, words: list):
-        self.pairs = words
+        self.pairs = list(filter(filterShortLists, words))
 
     @staticmethod
     def my_enumerate(objs, start, stop):
@@ -32,11 +38,11 @@ class flashcard:
                   f"Incorrect: {len(missed)}\n"
                   f"Accuracy: {(correct / total * 100):.2f}%")
 
-            results = get_input("See full results (y/n): ").lower().strip()
+        results = get_input("See full results (y/n): ").lower().strip()
 
-            if results in constants.DEFAULT_YES_OPTIONS:
-                for i, miss in enumerate(missed):
-                    print(f"{i}: {miss[0]} > (O) {miss[1]} (X) {miss[2]}")
+        if results in constants.DEFAULT_YES_OPTIONS:
+            for i, miss in enumerate(missed):
+                print(f"{i}: {miss[0]} > (O) {miss[1]} (X) {miss[2]}")
 
     def display(self):
         for pair in self.pairs:
